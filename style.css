@@ -15,6 +15,9 @@
 }
 
 /* Shared Style */
+.background{
+    background-color: rgb(246, 249, 255);
+}
 .primary-color{
     color: #4E47FF;
 }
@@ -80,4 +83,33 @@ nav{
 }
 .hero-btn{
     margin: 35px 0 150px;
+}
+
+/* Main Section Styles */
+
+/* Action Section */
+.action-section{
+    width: 85%;
+    margin: 0 auto;
+    padding: 116px 0;
+}
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-title{
+    color: rgb(37, 36, 50);
+    font-size: 42px;
+    font-weight: 700;
+}
+.action-description{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    margin: 25px 0;
+}
+.action-image img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
